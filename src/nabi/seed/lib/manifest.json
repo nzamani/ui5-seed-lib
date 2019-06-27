@@ -1,0 +1,56 @@
+{
+	"_version": "1.14.0",
+	"sap.app": {
+		"id": "nabi.seed.lib",
+		"type": "library",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{lib.title}}",
+		"subTitle": "{{lib.subTitle}}",
+		"shortTitle": "{{lib.shortTitle}}",
+		"info": "{{lib.info}}",
+		"description": "{{lib.description}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"tags": {
+			"keywords": [
+				"{{lib.tag.seed}}",
+				"{{lib.tag.seed.library}}"
+			]
+		},
+		"embeds":[
+			"comp/reuse/northwind/customer/selection",
+			"comp/reuse/northwind/customer/selectionBtn"
+		],
+		"openSourceComponents": [],
+		"resources": "resources.json",
+		"offline": true
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": ["base", "sap_hcb", "sap_belize", "sap_belize_plus"]
+	},
+	"sap.ui5": {
+		"dependencies": {
+			"minUI5Version": "1.64.0",
+			"libs": {
+				"sap.ui.core" : { },
+				"sap.m": { },
+				"sap.ui.unified" : { "lazy": true }
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"resources" : {
+			"css" : [],
+			"js" : []
+		}
+	}
+}

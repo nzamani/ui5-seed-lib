@@ -1,0 +1,42 @@
+{
+	"nabi.seed.lib": {
+		"icon": "sap-icon://help",
+		"name": "UI5 Seed Library",
+		"description": "UI5 Seed Library",
+		"source" : "https://github.com/nzamani/ui5-seed-lib",
+		"documentation": "https://github.com/nzamani/ui5-seed-lib/blob/master/README.md",
+		"demo" : "",
+		"license": "Apache 2.0",
+		"version": "1.0.0",
+		"content": {
+			"CustomerSelectionComponent": {
+				"id": "CustomerSelectionComponent",
+				"name": "Customer Selection Reuse Component",
+				"type": "component",
+				"version": 1.0,
+				"description": "Easily selecting customers from list coming from Northwind V2",
+				"samples": [
+					{
+						"id": "CustomerSelection",
+						"name": "Customer Selection",
+						"description": "Open a customer selection dialog via rendered button + via own button"
+					}
+				]
+			},
+			"ProductRatingControl": {
+				"id": "ProductRatingControl",
+				"name": "Product Rating Control",
+				"type": "control",
+				"version": 1.0,
+				"description": "A simple ProductRating control copied from walkthrough tutorial",
+				"samples": [
+					{
+						"id": "ProductRating",
+						"name": "ProductRating",
+						"description": "Product Rating control demo"
+					}
+				]
+			}
+		}
+	}
+}
