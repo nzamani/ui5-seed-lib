@@ -66,6 +66,6 @@
     "@openui5/sap.ui.unified": "1.65.1",
     "@openui5/themelib_sap_belize": "1.65.1",
     "moment": "^2.24.0",
-    "ui5-seed-customtheme": "git+ssh://github.com/nzamani/ui5-seed-customtheme.git#1.65.1"
+    "ui5-seed-customtheme": "https://github.com/nzamani/ui5-seed-customtheme.git#1.65.1"
   }
 }
